@@ -1,0 +1,196 @@
+body {
+    -webkit-animation: animationFrames ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+    margin: 5% 5% 5% 20%;
+    
+  }
+  
+  
+  #title {
+  
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+    margin-bottom: 10px;
+
+  
+  }
+  
+  
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  #head1 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 8%;
+    color: #fff;
+  }
+  
+ 
+  
+  .logo-top {
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+  }
+
+  
+  .top-button
+  {
+    margin-left: 5%;
+  }
+
+
+  
+  .navbar {
+    padding: 0 0 0 4.5rem;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+  
+  }
+  
+  .row {
+    margin-left: 35px;
+    text-align: left;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  
+
+  
+  @media (max-width:993px) {
+    #title {
+      text-align: center;
+    }
+  
+    .image1 {
+      position: static;
+      transform: rotate(0deg);
+      margin-left: 20px;
+    }
+  
+    .logo-top {
+      width: 20%;
+      height: 20%;
+    }
+  
+    .para-head 
+    {
+      font-size: 20px;
+    }
+  
+    .top-button
+  {
+    margin-left: 0%;
+  }
+  }
+  
+  .icon {
+
+    padding: 10px;
+    font-size: 40px;
+
+  }
+
+
+ .hvr-underline-reveal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-reveal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ff2d2d;
+    height: 4px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+ 
+  @-webkit-keyframes hvr-ripple-out {
+    100% {
+      top: -12px;
+      right: -12px;
+      bottom: -12px;
+      left: -12px;
+      opacity: 0;
+    }
+  }
+  @keyframes hvr-ripple-out {
+    100% {
+      top: -12px;
+      right: -12px;
+      bottom: -12px;
+      left: -12px;
+      opacity: 0;
+    }
+  }
+ 
+  
+  #features {
+
+    position: relative;
+    padding: 7% 15%;
+    background-color: rgba(255, 255, 255, 0.931);
+  
+  }
+  
+  .feat {
+    text-align: left;
+    font-family: "Montserrat";
+  }
+
+
+  #footer {
+    
+   color: white;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+    letter-spacing: 4px;
+    padding: 4%;
+    text-align: center;
+  }
+  .cont{
+    -webkit-animation: animationFrames ease 10s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  }
+  
+  @-webkit-keyframes animationFrames {
+    0% {
+      opacity:0;
+      -webkit-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+  }

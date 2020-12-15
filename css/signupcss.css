@@ -1,0 +1,422 @@
+body {
+    margin: 5% 5% 5% 20%;
+    align-items: center;
+    -webkit-animation: animationFrames ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/  }
+  
+    
+  @-webkit-keyframes animationFrames {
+    0% {
+      opacity:0;
+      -webkit-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  #title {
+  
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+  
+    z-index: -1;
+  
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 7%;
+  
+  }
+  
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  #head1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 8%;
+    color: #fff;
+  }
+  
+  .para-head {
+    text-align: left;
+    margin-left: 8%;
+    margin-right:8% ;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: 500;
+  
+  }
+  
+  .logo-top {
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+  }
+  
+  .logo-top:hover {
+    background-image: url("images\hover-mgfx.png"),no;
+  }
+  
+  .top-button
+  {
+    margin-left: 5%;
+  }
+  
+  .btn {
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 1rem 1rem 2em;
+    max-width: 200px; 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+   height: 50px;
+    width: 100%; 
+  }
+  
+  .btn:hover {
+    
+  border: 2px solid;
+  color: rgb(255, 255, 255); 
+  background-color: rgba(255, 255, 255, 0);
+  }
+  
+  
+  .navbar {
+    padding: 0 0 0 4.5rem;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+  
+  }
+  
+  .row {
+    margin-left: 35px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  
+  
+  .image1 {
+    transform: rotate(20deg);
+    width: 40%;
+    position: absolute;
+    right: 30%;
+  
+  }
+  
+  @media (max-width:1000px)
+  {
+    #title {
+      text-align: center;
+    }
+  
+    .image1 {
+      position: static;
+      transform: rotate(0deg);
+      margin-left: 20px;
+    }
+  
+    .logo-top {
+      width: 20%;
+      height: 20%;
+    }
+  
+    .para-head 
+    {
+      font-size: 20px;
+    }
+  
+    .top-button
+    {
+    margin-left: 0%;
+    }
+    .group 			  {
+      padding: 10px;
+      margin-top: 10px; 
+      margin-right: 0%;
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  
+  }
+  
+
+#buttss 		{ 
+    font-family:'Montserrat';
+    width:600px; 
+    margin-left: 0%;
+    display:inline-block; 
+  
+  
+  }
+  
+  }
+  
+  .icons {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 5.5rem;
+    color:rgba(255, 0, 0, 0.7);
+  
+  }
+  
+  .icons:hover {
+  
+  
+    color:#ff2d2d;
+    
+  }
+  
+ 
+
+
+  #features {
+    z-index: 1;
+    position: relative;
+    padding: 7% 15%;
+    background-color: #fff;
+  
+  }
+  
+  .feat {
+    text-align: center;
+    font-family: "Montserrat";
+  }
+  
+  
+ 
+  
+  #pricing {
+    font-family: sans-serif;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+
+  
+  #footer {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+    letter-spacing: 4px;
+    padding: 4%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  * { box-sizing:border-box; }
+
+/* basic stylings ------------------------------------------ */
+body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+#buttss 		{ 
+    font-family:'Montserrat';
+    width:600px; 
+    text-align: center;
+    display:inline-block; 
+  
+  
+  }
+h2 		 { 
+  text-align:center; 
+  margin-bottom:50px; 
+}
+h2 small { 
+  font-weight:normal; 
+  color:#888; 
+  display:block; 
+}
+
+/* form starting stylings ------------------------------- */
+.group 			  {
+    padding: 10px;
+    margin-top: 10px; 
+    float: right;
+    clear: right;
+    text-align: right;
+    margin-right: 20%;
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+    background: none;
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+display: block;
+    width:500px;
+  border:none;
+  border-bottom:1px solid #ff5e5e;
+  -webkit-box-shadow:inset 0 5 0px #000;
+       -moz-box-shadow:inset 0 5 0px #000;
+            box-shadow:inset 0 5 0px #000;
+
+  
+  
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+    float: right;
+    clear: right;
+    text-align: right;
+  color:#f89e9e; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#ffffff;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:500px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#ffffff; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#ffffff; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#ffffff; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#ffffff; }
+  to 	{ width:0; background:transparent; }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.circ{
+  opacity: 0;
+  stroke-dasharray: 130;
+  stroke-dashoffset: 130;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.tick{
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  -webkit-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -moz-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -ms-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -o-transition: stroke-dashoffset 1s 0.5s ease-out;
+  transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+.drawn + svg .path{
+  opacity: 1;
+  stroke-dashoffset: 0;
+}

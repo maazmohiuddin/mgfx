@@ -1,0 +1,235 @@
+body {
+  -webkit-animation: animationFrames ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+    margin: 5% 5% 5% 20%;
+    margin: 5% 5% 5% 20%;
+    align-items: center;
+  }
+  @-webkit-keyframes animationFrames {
+    0% {
+      opacity:0;
+      -webkit-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  #title {
+  
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+    margin-bottom: 10px;
+
+  
+  }
+  
+  
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  #head1 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 8%;
+    color: #fff;
+  }
+  
+ 
+  
+  .logo-top {
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+  }
+
+  
+  .top-button
+  {
+    margin-left: 5%;
+  }
+
+
+  
+  .navbar {
+    padding: 0 0 0 4.5rem;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+  
+  }
+  
+  .row {
+    margin-left: 35px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  
+
+  
+  @media (max-width:993px) {
+    .overlay {
+      color: black;
+      border-radius: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    #title {
+      text-align: center;
+    }
+  
+    .image1 {
+      position: static;
+      transform: rotate(0deg);
+      margin-left: 20px;
+    }
+  
+    .logo-top {
+      width: 20%;
+      height: 20%;
+    }
+  
+    .para-head 
+    {
+      font-size: 20px;
+    }
+  
+    .top-button
+  {
+    margin-left: 0%;
+  }
+  }
+  
+  .icons {
+    -webkit-animation: animationFrames ease 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 5.5rem;
+    color:rgba(255, 0, 0, 0.7);
+  
+  }
+  
+  .icons:hover {
+  
+  
+    color:#ff2d2d;
+    
+  }
+  
+  #features {
+
+    position: relative;
+    padding: 7% 15%;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  .feat {
+    text-align: center;
+    font-family: "Montserrat";
+  }
+  
+  
+
+  
+  #footer {
+    
+    background-color: white;
+    letter-spacing: 4px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  #services-carousel
+  {
+    padding: 7% 15%;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%);
+  }
+  .carousel-item {
+      font-family: Montserrat;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    font-size: 100px;
+  }
+
+  .carousel {
+    position: relative;
+  
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+      color: black;
+      border-radius: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .carousel-item:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
